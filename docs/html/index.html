@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projeto de Labratorios: Página principal</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Projeto de Labratorios<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Projeto de Labratorios Documentação</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="doxygen_crawl.html"/>
+</div><!-- contents -->
+<div>
+  <h1>Introdução</h1>
+  <p>Este tranalho em python foi desenvolvido na cadeira de Labrátorios de Programação que nos ensinou a utilizar o Doxygen e o GIT. </p>
+</div>
+<div>
+  <h1>Matriz do código:</h1>
+  <p>O objetivo deste trabalho  é  implementar  um programa que peça ao utilizador 14
+    números inteiros e os guarde num vetor, para  posteriormente  providenciar forma
+    de calcular algumas estatísticas ou fazer operações sobre esses valores.
+    Os valores pedidos devem estar compreendidos entre 9 e 28. </p>
+   <p>Deve ser feita a VALIDAÇÃO DE ENTRADA!</p> 
+    
+    <p>Após terem sido pedidos os valores, deve  ser mostrado um menu ao utilizador que
+      lhe permita calcular cada  uma  das  estatísticas referidas em baixo, exatamente
+      pela  ordem  colocadas  neste  enunciado.  Depois de  se  escolher  uma opção, o
+      resultado deve ser mostrado no ecrã, e o menu deve voltar a ser exibido.
+      As funcionalidades mínimas a disponibilizar são as seguintes:</p>
+    
+      <p>- Cálculo da raíz quadrada de todos os elementos no vetor;</p> 
+      <p>- Identificação do mínimo de todos os elementos do vetor;</p> 
+      <p>- Devolução dos valores em posições múltiplas de três do vetor;</p>
+      <p>- Devolução do vetor,  com  a  segunda metade dos valores ordenada por ordem
+        crescente; </p>
+      <p>- Cálculo da divisão de todos os elementos no vetor por 2;</p>
+      <p>- Construção de uma matriz 14 por 14, em que cada linha é composta pelo vetor lido (primeira linha) e por permutações dos seus valores (outras linhas).</p>
+    
+    
+    <p>versão  mais elaborada  do projeto  deve exibir adicionalmente as seguintes
+    características e funcionalidades:</p> 
+    
+    <p>- Leitura de um novo vetor, e devolução de um  vetor que  mistura  metade do
+      primeiro vetor e metade do segundo;</p>
+    <p>- Identificação de todos os números compostos (não primos) no vetor inicial;</p>
+    <p>- Leitura  de  um novo vetor  1x14,  cálculo  e  devolução  da  matriz 14x14
+      resultante do produto do vetor inicial com o novo vetor gerado;</p> 
+    <p>- Cálculo e apresentação da matriz transposta referida no ponto anterior;</p> 
+    <p>- O programa apresenta  adicionalmente  uma  página de ajuda, acessível como
+      sendo a entrada 7 no menu.</p>
+    <p>-O programa  mostra  alguma  ajuda  quando é executado a partir da linha de
+      comandos com a flag --help.</p>
+</div>
+<div>
+  <h1>
+    Para conseguir executar o código é preciso dos pacotes python:
+  </h1>
+  <h2>Math</h2>
+  <p> O pacote math é um pacote que já vem com a o Python por padrão.</p>
+  <p>Este pacote traz contas novas formas e novas formas de fazer contas.</p>
+  <h2>Itertools</h2>
+  <p>Este pacote não vem por padrão no python por tanto temos que introduzir na nossa maquina.</p>
+  <h3>Como instalar:</h3>
+  <p>Para instalar na nossa maquina devemos executar o seguinte comando no nosso terminal:</p>
+  <p>pip install itertools</p>
+</div>
+<div>
+  <h1>Namespace:</h1>
+  <div class="contents">
+    <table class="memberdecls">
+    <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+    Funções</h2></td></tr>
+    <tr class="memitem:a13d7455632e970ca5c7fa44badd78965" id="r_a13d7455632e970ca5c7fa44badd78965"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13d7455632e970ca5c7fa44badd78965">validar_entrada</a> (<a class="el" href="#a06c17cfc2c3ad43d9ec005ea8afae6ec">valor</a>)</td></tr>
+    <tr class="separator:a13d7455632e970ca5c7fa44badd78965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a6570e9158310c0f53d480fa4912c7130" id="r_a6570e9158310c0f53d480fa4912c7130"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6570e9158310c0f53d480fa4912c7130">calcular_raiz_quadrada</a> (vetor)</td></tr>
+    <tr class="separator:a6570e9158310c0f53d480fa4912c7130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a1ad902ff68a83d9c637690df8d3958d0" id="r_a1ad902ff68a83d9c637690df8d3958d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad902ff68a83d9c637690df8d3958d0">identificar_minimo</a> (vetor)</td></tr>
+    <tr class="separator:a1ad902ff68a83d9c637690df8d3958d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:ab182e5679a32c09810bff7a67c78790e" id="r_ab182e5679a32c09810bff7a67c78790e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab182e5679a32c09810bff7a67c78790e">valores_posicoes_multiplos_tres</a> (vetor)</td></tr>
+    <tr class="separator:ab182e5679a32c09810bff7a67c78790e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:adf9a2077ec3f86e8276ee13c05943851" id="r_adf9a2077ec3f86e8276ee13c05943851"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9a2077ec3f86e8276ee13c05943851">vetor_segunda_metade_ordenada</a> (vetor)</td></tr>
+    <tr class="separator:adf9a2077ec3f86e8276ee13c05943851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a733abca8205cff78963a2a423667881f" id="r_a733abca8205cff78963a2a423667881f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a733abca8205cff78963a2a423667881f">divisao_elementos_por_2</a> (vetor)</td></tr>
+    <tr class="separator:a733abca8205cff78963a2a423667881f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a38be2333f1a6090d33b555d3f354f4c2" id="r_a38be2333f1a6090d33b555d3f354f4c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38be2333f1a6090d33b555d3f354f4c2">construir_matriz_permutacoes</a> (vetor)</td></tr>
+    <tr class="separator:a38be2333f1a6090d33b555d3f354f4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a3140e9a5b6a71ffbf498198cfc471b88" id="r_a3140e9a5b6a71ffbf498198cfc471b88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3140e9a5b6a71ffbf498198cfc471b88">main</a> ()</td></tr>
+    <tr class="separator:a3140e9a5b6a71ffbf498198cfc471b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a0bb02a044fc5d9c71d2d678636d02a0f" id="r_a0bb02a044fc5d9c71d2d678636d02a0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb02a044fc5d9c71d2d678636d02a0f">misturar_vetores</a> (vetor1, vetor2)</td></tr>
+    <tr class="separator:a0bb02a044fc5d9c71d2d678636d02a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:ae375e631be2f43150b44b2c3d01d2868" id="r_ae375e631be2f43150b44b2c3d01d2868"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae375e631be2f43150b44b2c3d01d2868">numeros_compostos</a> (vetor)</td></tr>
+    <tr class="separator:ae375e631be2f43150b44b2c3d01d2868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a2102649ef93d71f88cf528a43d968866" id="r_a2102649ef93d71f88cf528a43d968866"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2102649ef93d71f88cf528a43d968866">produto_matriz</a> (vetor1, vetor2)</td></tr>
+    <tr class="separator:a2102649ef93d71f88cf528a43d968866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a99b8613c5c520e5c326169b6556f08d6" id="r_a99b8613c5c520e5c326169b6556f08d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99b8613c5c520e5c326169b6556f08d6">matriz_transposta</a> (matriz)</td></tr>
+    <tr class="separator:a99b8613c5c520e5c326169b6556f08d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a00163dd1c63dc76e53c8194db34bf753" id="r_a00163dd1c63dc76e53c8194db34bf753"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00163dd1c63dc76e53c8194db34bf753">ajuda</a> ()</td></tr>
+    <tr class="separator:a00163dd1c63dc76e53c8194db34bf753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    </table><table class="memberdecls">
+    <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+    Variáveis</h2></td></tr>
+    <tr class="memitem:ae1c2a0f35797937786087fed5662ea82" id="r_ae1c2a0f35797937786087fed5662ea82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c2a0f35797937786087fed5662ea82">escolha</a> = input(&quot;Escolha uma opção: &quot;)</td></tr>
+    <tr class="separator:ae1c2a0f35797937786087fed5662ea82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:acff32e87399d82ef358379f9e8636e3f" id="r_acff32e87399d82ef358379f9e8636e3f"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff32e87399d82ef358379f9e8636e3f">novo_vetor</a> = []</td></tr>
+    <tr class="separator:acff32e87399d82ef358379f9e8636e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a06c17cfc2c3ad43d9ec005ea8afae6ec" id="r_a06c17cfc2c3ad43d9ec005ea8afae6ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06c17cfc2c3ad43d9ec005ea8afae6ec">valor</a> = int(input(f&quot;Digite o {i + 1}º número para o novo vetor (entre 9 e 28): &quot;))</td></tr>
+    <tr class="separator:a06c17cfc2c3ad43d9ec005ea8afae6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a2ccddbf42fdf6a27cd2e25c079b664ed" id="r_a2ccddbf42fdf6a27cd2e25c079b664ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ccddbf42fdf6a27cd2e25c079b664ed">resultado_matriz</a> = <a class="el" href="#a2102649ef93d71f88cf528a43d968866">produto_matriz</a>(vetor, <a class="el" href="#acff32e87399d82ef358379f9e8636e3f">novo_vetor</a>)</td></tr>
+    <tr class="separator:a2ccddbf42fdf6a27cd2e25c079b664ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    <tr class="memitem:a890db9b7fea3fb7ec09dc82bb9242426" id="r_a890db9b7fea3fb7ec09dc82bb9242426"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a890db9b7fea3fb7ec09dc82bb9242426">resultado_transposta</a> = <a class="el" href="#a99b8613c5c520e5c326169b6556f08d6">matriz_transposta</a>(<a class="el" href="#a2ccddbf42fdf6a27cd2e25c079b664ed">resultado_matriz</a>)</td></tr>
+    <tr class="separator:a890db9b7fea3fb7ec09dc82bb9242426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+    </table>
+    <a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+    <div class="textblock"><pre class="fragment">:file main.py
+    :brief Projeto mae do ficheiro.
+    :details Importar tudo .
+    </pre> </div><h2 class="groupheader">Documentação das funções</h2>
+    <a id="a00163dd1c63dc76e53c8194db34bf753" name="a00163dd1c63dc76e53c8194db34bf753"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a00163dd1c63dc76e53c8194db34bf753">&#9670;&#160;</a></span>ajuda()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.ajuda </td>
+              <td>(</td>
+              <td class="paramname"><span class="paramname"></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Apresenta uma página de ajuda com informações sobre o programa.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00140">140</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a6570e9158310c0f53d480fa4912c7130" name="a6570e9158310c0f53d480fa4912c7130"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a6570e9158310c0f53d480fa4912c7130">&#9670;&#160;</a></span>calcular_raiz_quadrada()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.calcular_raiz_quadrada </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Calcula a raiz quadrada de todos os elementos no vetor.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00018">18</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a38be2333f1a6090d33b555d3f354f4c2" name="a38be2333f1a6090d33b555d3f354f4c2"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a38be2333f1a6090d33b555d3f354f4c2">&#9670;&#160;</a></span>construir_matriz_permutacoes()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.construir_matriz_permutacoes </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Constrói uma matriz 14x14 com permutações dos valores do vetor.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00049">49</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a733abca8205cff78963a2a423667881f" name="a733abca8205cff78963a2a423667881f"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a733abca8205cff78963a2a423667881f">&#9670;&#160;</a></span>divisao_elementos_por_2()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.divisao_elementos_por_2 </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Calcula a divisão de todos os elementos no vetor por 2.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00043">43</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a1ad902ff68a83d9c637690df8d3958d0" name="a1ad902ff68a83d9c637690df8d3958d0"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a1ad902ff68a83d9c637690df8d3958d0">&#9670;&#160;</a></span>identificar_minimo()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.identificar_minimo </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Identifica o mínimo de todos os elementos do vetor.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00024">24</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a3140e9a5b6a71ffbf498198cfc471b88" name="a3140e9a5b6a71ffbf498198cfc471b88"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a3140e9a5b6a71ffbf498198cfc471b88">&#9670;&#160;</a></span>main()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.main </td>
+              <td>(</td>
+              <td class="paramname"><span class="paramname"></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Função principal que interage com o usuário.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00056">56</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a99b8613c5c520e5c326169b6556f08d6" name="a99b8613c5c520e5c326169b6556f08d6"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a99b8613c5c520e5c326169b6556f08d6">&#9670;&#160;</a></span>matriz_transposta()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.matriz_transposta </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>matriz</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Calcula e retorna a matriz transposta da matriz fornecida.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00133">133</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a0bb02a044fc5d9c71d2d678636d02a0f" name="a0bb02a044fc5d9c71d2d678636d02a0f"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a0bb02a044fc5d9c71d2d678636d02a0f">&#9670;&#160;</a></span>misturar_vetores()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.misturar_vetores </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor1</em>, </span></td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor2</em></span>&#160;)</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Mistura metade do primeiro vetor com metade do segundo vetor.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00111">111</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="ae375e631be2f43150b44b2c3d01d2868" name="ae375e631be2f43150b44b2c3d01d2868"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#ae375e631be2f43150b44b2c3d01d2868">&#9670;&#160;</a></span>numeros_compostos()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.numeros_compostos </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Identifica todos os números compostos (não primos) no vetor inicial.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00119">119</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a2102649ef93d71f88cf528a43d968866" name="a2102649ef93d71f88cf528a43d968866"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a2102649ef93d71f88cf528a43d968866">&#9670;&#160;</a></span>produto_matriz()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.produto_matriz </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor1</em>, </span></td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor2</em></span>&#160;)</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Calcula e retorna a matriz resultante do produto do vetor1 com o vetor2.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00126">126</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a13d7455632e970ca5c7fa44badd78965" name="a13d7455632e970ca5c7fa44badd78965"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a13d7455632e970ca5c7fa44badd78965">&#9670;&#160;</a></span>validar_entrada()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.validar_entrada </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>valor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Valida se o valor está no intervalo permitido (9 a 28).
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00012">12</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="ab182e5679a32c09810bff7a67c78790e" name="ab182e5679a32c09810bff7a67c78790e"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#ab182e5679a32c09810bff7a67c78790e">&#9670;&#160;</a></span>valores_posicoes_multiplos_tres()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.valores_posicoes_multiplos_tres </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Retorna os valores em posições múltiplas de três do vetor.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00030">30</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="adf9a2077ec3f86e8276ee13c05943851" name="adf9a2077ec3f86e8276ee13c05943851"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#adf9a2077ec3f86e8276ee13c05943851">&#9670;&#160;</a></span>vetor_segunda_metade_ordenada()</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.vetor_segunda_metade_ordenada </td>
+              <td>(</td>
+              <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>vetor</em></span></td><td>)</td>
+              <td></td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    <pre class="fragment">Retorna o vetor com a segunda metade dos valores ordenada por ordem crescente.
+    </pre> 
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00036">36</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <h2 class="groupheader">Documentação das variáveis</h2>
+    <a id="ae1c2a0f35797937786087fed5662ea82" name="ae1c2a0f35797937786087fed5662ea82"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#ae1c2a0f35797937786087fed5662ea82">&#9670;&#160;</a></span>escolha</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.escolha = input(&quot;Escolha uma opção: &quot;)</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00168">168</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="acff32e87399d82ef358379f9e8636e3f" name="acff32e87399d82ef358379f9e8636e3f"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#acff32e87399d82ef358379f9e8636e3f">&#9670;&#160;</a></span>novo_vetor</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">list main.novo_vetor = []</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00171">171</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a2ccddbf42fdf6a27cd2e25c079b664ed" name="a2ccddbf42fdf6a27cd2e25c079b664ed"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a2ccddbf42fdf6a27cd2e25c079b664ed">&#9670;&#160;</a></span>resultado_matriz</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.resultado_matriz = <a class="el" href="#a2102649ef93d71f88cf528a43d968866">produto_matriz</a>(vetor, <a class="el" href="#acff32e87399d82ef358379f9e8636e3f">novo_vetor</a>)</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00199">199</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a890db9b7fea3fb7ec09dc82bb9242426" name="a890db9b7fea3fb7ec09dc82bb9242426"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a890db9b7fea3fb7ec09dc82bb9242426">&#9670;&#160;</a></span>resultado_transposta</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.resultado_transposta = <a class="el" href="#a99b8613c5c520e5c326169b6556f08d6">matriz_transposta</a>(<a class="el" href="#a2ccddbf42fdf6a27cd2e25c079b664ed">resultado_matriz</a>)</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00204">204</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    <a id="a06c17cfc2c3ad43d9ec005ea8afae6ec" name="a06c17cfc2c3ad43d9ec005ea8afae6ec"></a>
+    <h2 class="memtitle"><span class="permalink"><a href="#a06c17cfc2c3ad43d9ec005ea8afae6ec">&#9670;&#160;</a></span>valor</h2>
+    
+    <div class="memitem">
+    <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">main.valor = int(input(f&quot;Digite o {i + 1}º número para o novo vetor (entre 9 e 28): &quot;))</td>
+            </tr>
+          </table>
+    </div><div class="memdoc">
+    
+    <p class="definition">Definido na linha <a class="el" href="main_8py_source.html#l00175">175</a> do ficheiro <a class="el" href="main_8py_source.html">main.py</a>.</p>
+    
+    </div>
+    </div>
+    </div>
+
+</div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

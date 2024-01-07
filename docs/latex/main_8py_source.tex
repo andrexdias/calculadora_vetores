@@ -1,0 +1,219 @@
+\doxysection{main.\+py}
+\hypertarget{main_8py_source}{}\label{main_8py_source}\mbox{\hyperlink{main_8py}{Ir para a documentação deste ficheiro.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00001}\mbox{\hyperlink{namespacemain}{00001}}\ \textcolor{comment}{\#\ -\/*-\/\ coding:\ utf-\/8\ -\/*-\/}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00003}00003\ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00004}00004\ \textcolor{stringliteral}{:file\ main.py}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00005}00005\ \textcolor{stringliteral}{:brief\ Projeto\ mae\ do\ ficheiro.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00006}00006\ \textcolor{stringliteral}{:details\ Importar\ tudo\ .}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00007}00007\ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00009}00009\ \textcolor{keyword}{import}\ math}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00010}00010\ \textcolor{keyword}{import}\ itertools}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00012}\mbox{\hyperlink{namespacemain_a13d7455632e970ca5c7fa44badd78965}{00012}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a13d7455632e970ca5c7fa44badd78965}{validar\_entrada}}(valor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00013}00013\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00014}00014\ \textcolor{stringliteral}{\ \ \ \ Valida\ se\ o\ valor\ está\ no\ intervalo\ permitido\ (9\ a\ 28).}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00015}00015\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00016}00016\ \ \ \ \ \textcolor{keywordflow}{return}\ 9\ <=\ valor\ <=\ 28}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00017}00017\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00018}\mbox{\hyperlink{namespacemain_a6570e9158310c0f53d480fa4912c7130}{00018}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a6570e9158310c0f53d480fa4912c7130}{calcular\_raiz\_quadrada}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00019}00019\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00020}00020\ \textcolor{stringliteral}{\ \ \ \ Calcula\ a\ raiz\ quadrada\ de\ todos\ os\ elementos\ no\ vetor.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00021}00021\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00022}00022\ \ \ \ \ \textcolor{keywordflow}{return}\ [math.sqrt(valor)\ \textcolor{keywordflow}{for}\ valor\ \textcolor{keywordflow}{in}\ vetor]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00024}\mbox{\hyperlink{namespacemain_a1ad902ff68a83d9c637690df8d3958d0}{00024}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a1ad902ff68a83d9c637690df8d3958d0}{identificar\_minimo}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00025}00025\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00026}00026\ \textcolor{stringliteral}{\ \ \ \ Identifica\ o\ mínimo\ de\ todos\ os\ elementos\ do\ vetor.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00027}00027\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00028}00028\ \ \ \ \ \textcolor{keywordflow}{return}\ min(vetor)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00030}\mbox{\hyperlink{namespacemain_ab182e5679a32c09810bff7a67c78790e}{00030}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_ab182e5679a32c09810bff7a67c78790e}{valores\_posicoes\_multiplos\_tres}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00031}00031\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00032}00032\ \textcolor{stringliteral}{\ \ \ \ Retorna\ os\ valores\ em\ posições\ múltiplas\ de\ três\ do\ vetor.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00033}00033\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00034}00034\ \ \ \ \ \textcolor{keywordflow}{return}\ [vetor[i]\ \textcolor{keywordflow}{for}\ i\ \textcolor{keywordflow}{in}\ range(0,\ len(vetor),\ 3)]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00036}\mbox{\hyperlink{namespacemain_adf9a2077ec3f86e8276ee13c05943851}{00036}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_adf9a2077ec3f86e8276ee13c05943851}{vetor\_segunda\_metade\_ordenada}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00037}00037\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00038}00038\ \textcolor{stringliteral}{\ \ \ \ Retorna\ o\ vetor\ com\ a\ segunda\ metade\ dos\ valores\ ordenada\ por\ ordem\ crescente.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00039}00039\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00040}00040\ \ \ \ \ meio\ =\ len(vetor)\ //\ 2}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00041}00041\ \ \ \ \ \textcolor{keywordflow}{return}\ vetor[:meio]\ +\ sorted(vetor[meio:])}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00042}00042\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00043}\mbox{\hyperlink{namespacemain_a733abca8205cff78963a2a423667881f}{00043}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a733abca8205cff78963a2a423667881f}{divisao\_elementos\_por\_2}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00044}00044\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00045}00045\ \textcolor{stringliteral}{\ \ \ \ Calcula\ a\ divisão\ de\ todos\ os\ elementos\ no\ vetor\ por\ 2.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00046}00046\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00047}00047\ \ \ \ \ \textcolor{keywordflow}{return}\ [valor\ /\ 2\ \textcolor{keywordflow}{for}\ valor\ \textcolor{keywordflow}{in}\ vetor]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00049}\mbox{\hyperlink{namespacemain_a38be2333f1a6090d33b555d3f354f4c2}{00049}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a38be2333f1a6090d33b555d3f354f4c2}{construir\_matriz\_permutacoes}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00050}00050\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00051}00051\ \textcolor{stringliteral}{\ \ \ \ Constrói\ uma\ matriz\ 14x14\ com\ permutações\ dos\ valores\ do\ vetor.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00052}00052\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00053}00053\ \ \ \ \ matriz\ =\ [vetor]\ +\ list(itertools.permutations(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00054}00054\ \ \ \ \ \textcolor{keywordflow}{return}\ matriz}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00056}\mbox{\hyperlink{namespacemain_a3140e9a5b6a71ffbf498198cfc471b88}{00056}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a3140e9a5b6a71ffbf498198cfc471b88}{main}}():}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00057}00057\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00058}00058\ \textcolor{stringliteral}{\ \ \ \ Função\ principal\ que\ interage\ com\ o\ usuário.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00059}00059\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00060}00060\ \ \ \ \ vetor\ =\ []}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00061}00061\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00062}00062\ \ \ \ \ \textcolor{comment}{\#\ Pedir\ ao\ usuário\ 14\ números\ inteiros}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00063}00063\ \ \ \ \ \textcolor{keywordflow}{for}\ i\ \textcolor{keywordflow}{in}\ range(14):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00064}00064\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00065}00065\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00066}00066\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ valor\ =\ int(input(f\textcolor{stringliteral}{"{}Digite\ o\ \{i+1\}º\ número\ (entre\ 9\ e\ 28):\ "{}}))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00067}00067\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ \mbox{\hyperlink{namespacemain_a13d7455632e970ca5c7fa44badd78965}{validar\_entrada}}(valor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00068}00068\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ vetor.append(valor)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00071}00071\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Valor\ fora\ do\ intervalo\ permitido.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00072}00072\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{except}\ ValueError:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00073}00073\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Entrada\ inválida.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00075}00075\ \ \ \ \ \textcolor{keywordflow}{while}\ \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00076}00076\ \ \ \ \ \ \ \ \ \textcolor{comment}{\#\ Mostrar\ menu\ ao\ usuário}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00077}00077\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}\(\backslash\)nMenu:"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00078}00078\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}1\ -\/\ Cálculo\ da\ raiz\ quadrada\ de\ todos\ os\ elementos\ no\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00079}00079\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}2\ -\/\ Identificação\ do\ mínimo\ de\ todos\ os\ elementos\ do\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00080}00080\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}3\ -\/\ Devolução\ dos\ valores\ em\ posições\ múltiplas\ de\ três\ do\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00081}00081\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}4\ -\/\ Devolução\ do\ vetor,\ com\ a\ segunda\ metade\ dos\ valores\ ordenada\ por\ ordem\ crescente"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00082}00082\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}5\ -\/\ Cálculo\ da\ divisão\ de\ todos\ os\ elementos\ no\ vetor\ por\ 2"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00083}00083\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}6\ -\/\ Construção\ de\ uma\ matriz\ 14\ por\ 14\ com\ permutações\ dos\ valores\ do\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00084}00084\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}0\ -\/\ Sair"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00085}00085\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00086}00086\ \ \ \ \ \ \ \ \ escolha\ =\ input(\textcolor{stringliteral}{"{}Escolha\ uma\ opção:\ "{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00087}00087\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00088}00088\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ escolha\ ==\ \textcolor{stringliteral}{"{}1"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00089}00089\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_a6570e9158310c0f53d480fa4912c7130}{calcular\_raiz\_quadrada}}(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00090}00090\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}2"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00091}00091\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_a1ad902ff68a83d9c637690df8d3958d0}{identificar\_minimo}}(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00092}00092\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}3"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00093}00093\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_ab182e5679a32c09810bff7a67c78790e}{valores\_posicoes\_multiplos\_tres}}(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00094}00094\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}4"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00095}00095\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_adf9a2077ec3f86e8276ee13c05943851}{vetor\_segunda\_metade\_ordenada}}(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00096}00096\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}5"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00097}00097\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_a733abca8205cff78963a2a423667881f}{divisao\_elementos\_por\_2}}(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00098}00098\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}6"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ linha\ \textcolor{keywordflow}{in}\ \mbox{\hyperlink{namespacemain_a38be2333f1a6090d33b555d3f354f4c2}{construir\_matriz\_permutacoes}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00101}00101\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(linha)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00102}00102\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}0"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00103}00103\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Programa\ encerrado."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00104}00104\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00105}00105\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00106}00106\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Opção\ inválida.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00107}00107\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00108}00108\ \textcolor{keywordflow}{if}\ \_\_name\_\_\ ==\ \textcolor{stringliteral}{"{}\_\_main\_\_"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00109}00109\ \ \ \ \ \mbox{\hyperlink{namespacemain}{main}}()}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00110}00110\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00111}\mbox{\hyperlink{namespacemain_a0bb02a044fc5d9c71d2d678636d02a0f}{00111}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a0bb02a044fc5d9c71d2d678636d02a0f}{misturar\_vetores}}(vetor1,\ vetor2):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00112}00112\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00113}00113\ \textcolor{stringliteral}{\ \ \ \ Mistura\ metade\ do\ primeiro\ vetor\ com\ metade\ do\ segundo\ vetor.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00114}00114\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00115}00115\ \ \ \ \ meio1\ =\ len(vetor1)\ //\ 2}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00116}00116\ \ \ \ \ meio2\ =\ len(vetor2)\ //\ 2}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00117}00117\ \ \ \ \ \textcolor{keywordflow}{return}\ vetor1[:meio1]\ +\ vetor2[meio2:]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00118}00118\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00119}\mbox{\hyperlink{namespacemain_ae375e631be2f43150b44b2c3d01d2868}{00119}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_ae375e631be2f43150b44b2c3d01d2868}{numeros\_compostos}}(vetor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00120}00120\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00121}00121\ \textcolor{stringliteral}{\ \ \ \ Identifica\ todos\ os\ números\ compostos\ (não\ primos)\ no\ vetor\ inicial.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00122}00122\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00123}00123\ \ \ \ \ compostos\ =\ [valor\ \textcolor{keywordflow}{for}\ valor\ \textcolor{keywordflow}{in}\ vetor\ \textcolor{keywordflow}{if}\ any(valor\ \%\ i\ ==\ 0\ \textcolor{keywordflow}{for}\ i\ \textcolor{keywordflow}{in}\ range(2,\ valor))]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00124}00124\ \ \ \ \ \textcolor{keywordflow}{return}\ compostos}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00125}00125\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00126}\mbox{\hyperlink{namespacemain_a2102649ef93d71f88cf528a43d968866}{00126}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a2102649ef93d71f88cf528a43d968866}{produto\_matriz}}(vetor1,\ vetor2):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00127}00127\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00128}00128\ \textcolor{stringliteral}{\ \ \ \ Calcula\ e\ retorna\ a\ matriz\ resultante\ do\ produto\ do\ vetor1\ com\ o\ vetor2.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00129}00129\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00130}00130\ \ \ \ \ matriz\ =\ [[a\ *\ b\ \textcolor{keywordflow}{for}\ b\ \textcolor{keywordflow}{in}\ vetor2]\ \textcolor{keywordflow}{for}\ a\ \textcolor{keywordflow}{in}\ vetor1]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00131}00131\ \ \ \ \ \textcolor{keywordflow}{return}\ matriz}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00132}00132\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00133}\mbox{\hyperlink{namespacemain_a99b8613c5c520e5c326169b6556f08d6}{00133}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a99b8613c5c520e5c326169b6556f08d6}{matriz\_transposta}}(matriz):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00134}00134\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00135}00135\ \textcolor{stringliteral}{\ \ \ \ Calcula\ e\ retorna\ a\ matriz\ transposta\ da\ matriz\ fornecida.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00136}00136\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00137}00137\ \ \ \ \ transposta\ =\ [[matriz[j][i]\ \textcolor{keywordflow}{for}\ j\ \textcolor{keywordflow}{in}\ range(len(matriz))]\ \textcolor{keywordflow}{for}\ i\ \textcolor{keywordflow}{in}\ range(len(matriz[0]))]}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00138}00138\ \ \ \ \ \textcolor{keywordflow}{return}\ transposta}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00139}00139\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00140}\mbox{\hyperlink{namespacemain_a00163dd1c63dc76e53c8194db34bf753}{00140}}\ \textcolor{keyword}{def\ }\mbox{\hyperlink{namespacemain_a00163dd1c63dc76e53c8194db34bf753}{ajuda}}():}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00141}00141\ \ \ \ \ \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00142}00142\ \textcolor{stringliteral}{\ \ \ \ Apresenta\ uma\ página\ de\ ajuda\ com\ informações\ sobre\ o\ programa.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00143}00143\ \textcolor{stringliteral}{\ \ \ \ "{}"{}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00144}00144\ \ \ \ \ print(\textcolor{stringliteral}{"{}\(\backslash\)nBem-\/vindo\ ao\ Programa\ de\ Estatísticas!"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00145}00145\ \ \ \ \ print(\textcolor{stringliteral}{"{}Este\ programa\ permite\ calcular\ várias\ estatísticas\ e\ realizar\ operações\ com\ vetores."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00146}00146\ \ \ \ \ print(\textcolor{stringliteral}{"{}Menu\ de\ Ajuda:"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00147}00147\ \ \ \ \ \textcolor{comment}{\#\ Adicione\ informações\ adicionais\ conforme\ necessário.}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00148}00148\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00149}00149\ \textcolor{keywordflow}{if}\ \_\_name\_\_\ ==\ \textcolor{stringliteral}{"{}\_\_main\_\_"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00150}00150\ \ \ \ \ \textcolor{comment}{\#\ (Continuação\ do\ código\ anterior)}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00151}00151\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00152}00152\ \ \ \ \ \textcolor{keywordflow}{while}\ \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00153}00153\ \ \ \ \ \ \ \ \ \textcolor{comment}{\#\ Mostrar\ menu\ ao\ usuário}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00154}00154\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}\(\backslash\)nMenu:"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00155}00155\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}1\ -\/\ Cálculo\ da\ raiz\ quadrada\ de\ todos\ os\ elementos\ no\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00156}00156\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}2\ -\/\ Identificação\ do\ mínimo\ de\ todos\ os\ elementos\ do\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00157}00157\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}3\ -\/\ Devolução\ dos\ valores\ em\ posições\ múltiplas\ de\ três\ do\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00158}00158\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}4\ -\/\ Devolução\ do\ vetor,\ com\ a\ segunda\ metade\ dos\ valores\ ordenada\ por\ ordem\ crescente"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00159}00159\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}5\ -\/\ Cálculo\ da\ divisão\ de\ todos\ os\ elementos\ no\ vetor\ por\ 2"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00160}00160\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}6\ -\/\ Construção\ de\ uma\ matriz\ 14\ por\ 14\ com\ permutações\ dos\ valores\ do\ vetor"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00161}00161\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}7\ -\/\ Leitura\ de\ um\ novo\ vetor\ e\ devolução\ de\ um\ vetor\ que\ mistura\ metade\ do\ primeiro\ vetor\ e\ metade\ do\ segundo"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00162}00162\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}8\ -\/\ Identificação\ de\ todos\ os\ números\ compostos\ no\ vetor\ inicial"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00163}00163\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}9\ -\/\ Leitura\ de\ um\ novo\ vetor\ 1x14,\ cálculo\ e\ devolução\ da\ matriz\ 14x14\ resultante\ do\ produto\ do\ vetor\ inicial\ com\ o\ novo\ vetor\ gerado"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00164}00164\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}10\ -\/\ Cálculo\ e\ apresentação\ da\ matriz\ transposta\ referida\ no\ ponto\ anterior"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00165}00165\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}11\ -\/\ Ajuda"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00166}00166\ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}0\ -\/\ Sair"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00167}00167\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00168}\mbox{\hyperlink{namespacemain_ae1c2a0f35797937786087fed5662ea82}{00168}}\ \ \ \ \ \ \ \ \ escolha\ =\ input(\textcolor{stringliteral}{"{}Escolha\ uma\ opção:\ "{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00169}00169\ }
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00170}00170\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ escolha\ ==\ \textcolor{stringliteral}{"{}7"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00171}\mbox{\hyperlink{namespacemain_acff32e87399d82ef358379f9e8636e3f}{00171}}\ \ \ \ \ \ \ \ \ \ \ \ \ novo\_vetor\ =\ []}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00172}00172\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ i\ \textcolor{keywordflow}{in}\ range(14):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00173}00173\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00174}00174\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00175}\mbox{\hyperlink{namespacemain_a06c17cfc2c3ad43d9ec005ea8afae6ec}{00175}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ valor\ =\ int(input(f\textcolor{stringliteral}{"{}Digite\ o\ \{i\ +\ 1\}º\ número\ para\ o\ novo\ vetor\ (entre\ 9\ e\ 28):\ "{}}))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00176}00176\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ \mbox{\hyperlink{namespacemain_a13d7455632e970ca5c7fa44badd78965}{validar\_entrada}}(valor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00177}00177\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ novo\_vetor.append(valor)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00178}00178\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00179}00179\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00180}00180\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Valor\ fora\ do\ intervalo\ permitido.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00181}00181\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{except}\ ValueError:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00182}00182\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Entrada\ inválida.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00183}00183\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_a0bb02a044fc5d9c71d2d678636d02a0f}{misturar\_vetores}}(vetor,\ novo\_vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00184}00184\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}8"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00185}00185\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}},\ \mbox{\hyperlink{namespacemain_ae375e631be2f43150b44b2c3d01d2868}{numeros\_compostos}}(vetor))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00186}00186\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}9"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00187}00187\ \ \ \ \ \ \ \ \ \ \ \ \ novo\_vetor\ =\ []}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00188}00188\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ i\ \textcolor{keywordflow}{in}\ range(14):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00189}00189\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00190}00190\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00191}00191\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ valor\ =\ int(input(f\textcolor{stringliteral}{"{}Digite\ o\ \{i\ +\ 1\}º\ número\ para\ o\ novo\ vetor\ (entre\ 9\ e\ 28):\ "{}}))}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00192}00192\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ \mbox{\hyperlink{namespacemain_a13d7455632e970ca5c7fa44badd78965}{validar\_entrada}}(valor):}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00193}00193\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ novo\_vetor.append(valor)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00194}00194\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00195}00195\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00196}00196\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Valor\ fora\ do\ intervalo\ permitido.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00197}00197\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{except}\ ValueError:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00198}00198\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Entrada\ inválida.\ Tente\ novamente."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00199}\mbox{\hyperlink{namespacemain_a2ccddbf42fdf6a27cd2e25c079b664ed}{00199}}\ \ \ \ \ \ \ \ \ \ \ \ \ resultado\_matriz\ =\ \mbox{\hyperlink{namespacemain_a2102649ef93d71f88cf528a43d968866}{produto\_matriz}}(vetor,\ novo\_vetor)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00200}00200\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Resultado:"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00201}00201\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ linha\ \textcolor{keywordflow}{in}\ resultado\_matriz:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00202}00202\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(linha)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00203}00203\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}10"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00204}\mbox{\hyperlink{namespacemain_a890db9b7fea3fb7ec09dc82bb9242426}{00204}}\ \ \ \ \ \ \ \ \ \ \ \ \ resultado\_transposta\ =\ \mbox{\hyperlink{namespacemain_a99b8613c5c520e5c326169b6556f08d6}{matriz\_transposta}}(resultado\_matriz)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00205}00205\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Matriz\ Transposta:"{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00206}00206\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ linha\ \textcolor{keywordflow}{in}\ resultado\_transposta:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00207}00207\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ print(linha)}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00208}00208\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}11"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00209}00209\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{namespacemain_a00163dd1c63dc76e53c8194db34bf753}{ajuda}}()}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00210}00210\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{elif}\ escolha\ ==\ \textcolor{stringliteral}{"{}0"{}}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00211}00211\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Programa\ encerrado."{}})}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00212}00212\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00213}00213\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{main_8py_source_l00214}00214\ \ \ \ \ \ \ \ \ \ \ \ \ print(\textcolor{stringliteral}{"{}Opção\ inválida.\ Tente\ novamente."{}})}
+
+\end{DoxyCode}
